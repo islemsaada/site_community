@@ -1,0 +1,705 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  /* font-family: 'Lato',sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+     background: #262626;
+}
+.navbar-nav a{
+  font-family: poppins;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 4rem;
+
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color:#000;
+}
+.navbar-nav{
+  text-align: center;
+}
+.nav-link{
+  padding:.2rem 1rem;
+
+}
+.navbar-light .navbar-nav .nav-item .nav-link:active{
+
+  color:#e3b04b;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#e3b04b!important;
+}
+.w-100{
+  height: 100vh;
+
+}
+.encre{
+  position: relative;
+  top:-60px;
+  visibility: hidden;
+}
+
+
+/* button scroll jquery */
+.scrollUp{
+display:-webkit-flex;
+display:-moz-flex;
+display:-ms-flex;
+display:-o-flex;
+display:flex;
+  align-items: center;
+  font-size:35px;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: .5s;
+  background: #000;
+  position: fixed;
+    color:#e3b04b;
+  bottom: 16px;
+  right: 32px;
+  height: 45px;
+  width:45px;
+border-radius: 5px;
+justify-content: center;
+}
+.scrollUp.active{
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateY(-55px);
+}
+
+
+
+@media only screen and(max-width:767px) {
+ .navbar-nav .ml-auto{
+  background: rgba(0,0,0,0.5);
+}
+.navbar-toggler{
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+
+}
+
+
+
+
+
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size:cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  margin-bottom: 220px;
+}
+
+
+.carousel-caption  h5{
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: merienda;
+}
+
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+  line-height: 1.9;
+  font-family: poppins;
+
+}
+/* contact page index */
+.container .row .col-sm-4 {
+  margin-top: 40px;
+}
+.container .row .col-sm-8{
+  margin-top: 40px;
+}
+.form-group{
+  padding-top: 10px;
+}
+.col-sm-4 .fas{
+  background: #ddf3f5;
+  padding: 15px;
+  border-radius: 25px;
+  color:#0563bb;
+  margin-top: 10px
+  align:center;
+
+}
+.col-sm-4 .fas:hover{
+  background:#0563bb;
+  color: #ddf3f5 ;
+
+
+}
+.col-sm-4 span{
+margin-left: 48px;
+
+}
+
+
+.row .col-sm-6 .aaaa{
+  width: 50%;
+  box-sizing:border-box;
+  float: left;
+
+}
+
+.container h1{
+  margin-top: 70px;
+  color: #00005c;
+  text-align: center;
+  font-weight: bold;
+}
+.container .p-center{
+  margin-top: 30px;
+}
+
+.prog{
+  margin-top: 40px;
+}
+
+
+
+
+
+.row-cols-1 {
+  width: 85%;
+  padding-left: 280px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 20rem;
+    width: 16rem;
+}
+.md-4{
+padding-left: 55px;
+}
+
+
+.row-cols-md-2{
+  width:70%;
+  padding-top: 20px;
+  padding-left:450px;
+}
+
+
+.apprendre{
+  width: 100%;
+}
+#app{
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  text-align: center;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+
+
+
+
+.container .text {
+    background: white;
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    padding-left: 40px;
+    font-family: Georgia;
+   margin: 0 auto;
+    left: 350px;
+    top: 30%;
+    color: #00005c;
+    width: 50%;
+
+}
+
+
+
+
+.gris{
+    position: absolute;
+        z-index: -1;
+    height:250px;
+    width:800px;
+    background: #f0f0f0;
+    left:0px;
+    top:0px;
+}
+
+
+/* connexion in page index */
+.hero-image{
+  margin-top: 70px;
+  background-image:  url("img/inscription.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
+
+.hero-text {
+  color:#fff;
+
+  padding-top: 70px;
+
+}
+.hero-text p{
+  padding-top: 20px;
+
+}
+
+.hero-text button{
+  margin-top: 50px;
+  border:none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  background: #ea9215;
+  color: #fff;
+
+}
+
+.hero-text button:hover{
+  background:#fff;
+  color:  #ea9215;
+  font-weight: bold;
+}
+
+
+#contacter-nous{
+  text-align: center;
+  padding-top: 40px;
+  color:#00005c;
+}
+
+
+#souligne{
+  text-decoration-color: #e3b04b;
+position: relative;
+
+}
+
+.block{
+  width: 50%;
+  box-sizing:border-box;
+  float: left;
+  border-left: 1px outset #e0dede;
+margin-top:40px;
+}
+
+#para{
+  padding-left: 150px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color:  #00005c;
+}
+#title{
+    padding-left: 100px;
+    font-family: sans-serif;
+    color: #00005c;
+}
+
+.form-group{
+  padding-left: 100px;
+   margin-top :2px;
+}
+
+
+#btn-msg{
+  width:150px;
+  background-color: #e3b04b;
+  color:#00005c;
+  font-weight: bold;
+}
+
+.blc{
+  padding-top: 50px;
+}
+.corrdonne{
+  padding-left: 150px;
+  padding-top:10px;
+}
+
+.rep{
+  color: #888888;
+}
+
+
+
+/* page cnxion */
+.login{
+  width:420px;
+  height:500px;
+  background: white;
+  top:50%;
+
+  position:relative;
+
+  box-sizing: border-box;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: 70px;
+
+}
+.inscription{
+  width:300px;
+  height:700px;
+  background: white;
+  top:50%;
+  position:relative;
+
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: 70px;
+
+}
+/* .avatar{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position: fixed;
+margin-top: -180px;
+margin-left:130px;
+
+
+} */
+#contactimg{
+  width:800px;
+  height: 250px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto  auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+
+
+.gris{
+    position: absolute;
+        z-index: -1;
+    height:250px;
+    width:800px;
+    background: #f0f0f0;
+    left:0px;
+    top:0px;
+}
+
+
+/* ------------------------------------------------------- */
+.title-inscription{
+    color:#d54062;
+    padding-top: 50px;
+    text-align: center;
+}
+.p-form{
+  color:#00005c;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.btn-insc{
+    padding-top: 10px;
+}
+
+#compte{
+  padding-top:10px;
+}
+
+/* footer ---------------------------------------------------------------------------------  */
+
+
+footer{
+  margin-top: 40px;
+  width: 100%;
+  background: #f4f4f4;
+}
+footer h5{
+  color: #00005c;
+}
+footer .row{
+  padding-top: 30px;
+}
+
+.lien-devteam ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+}
+.lien-devteam ul li a {
+
+  text-decoration: none;
+  color: #000;
+}
+.lien-devteam ul li a:hover{
+  color: #e3b04b;
+}
+.langue .fas{
+  font-size: 30px;
+
+}
+
+.social-menu ul {
+  position: absolute;
+  top:40%;
+  left:45%;
+  padding:0;
+  margin:0;
+  transform:translate(-50%,-50%);
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px ;
+}
+
+.social-menu ul li .fab {
+  font-size: 30px;
+  line-height: 60px;
+  transition: .6s;
+  color:#000;
+
+}
+
+.social-menu ul li .fab {
+  position: relative;
+  display: block;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  text-align: center;
+  background-color: #fff;
+
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a .fab :hover{
+color: #fff;
+}
+.social-menu ul li a  :hover{
+transform: translate(0,-10px);
+color: #fff;
+
+
+}
+.social-menu ul li:nth-child(1) a  :hover
+{
+  background-color: #3b5999;
+
+}
+.social-menu ul li:nth-child(2) a  :hover
+{
+  background-color: #e4405f;
+
+}
+.social-menu ul li:nth-child(3) a  :hover
+{
+  background-color: #0077B5;
+
+}
+.social-menu ul li:nth-child(4) a  :hover
+{
+  background-color: #cd201f;
+
+}
+
+/* a propos -----------------------------------------------------------*/
+
+
+
+   .swiper-container {
+     width: 100%;
+      margin-top: 40px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background: #fff;
+   }
+
+   .swiper-slide {
+     background-position: center;
+     background-size: cover;
+     width: 300px;
+     height: 380px;
+     background:#f7f7f7 ;
+
+   }
+   .swiper-slide .imgBx {
+     width:100%;
+     height: 300px;
+     overflow: hidden;
+   }
+ .swiper-slide .imgBx img{
+width:100%;
+}
+
+.swiper-slide .details{
+  box-sizing: border-box;
+  padding: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.swiper-slide .details h3{
+margin:0;
+padding: 0px;
+  font-size: 20px;
+}
+
+.details span{
+font-size: 16px;
+color:#fa1616;
+}
+
+
+
+.img-fluid{
+  width:100%;
+}
+
+.banner{
+  background:url("img/groupe11.png")no-repeat center center fixed;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+   overflow: hidden;
+filter: saturate(50%);
+}
+
+
+.banner-items{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14% ;
+  margin: auto;
+color:#00005c;
+text-align: center;
+width: 48%;
+}
+
+
+.banner-items h2{
+font-size: 3em;
+margin-bottom: 20px;
+text-transform: uppercase;
+color: #00005c;
+}
+
+
+#prop{
+padding-top: 20px;
+  text-align: center;
+  color: #000;
+  padding-bottom: 20px;
+}
+.main-content{
+  display:flex;
+  flex-flow: row wrap ;
+    justify-content:space-between;
+    /* margin-top: 30px; */
+    padding:4% 0px;
+
+}
+.main-content{
+  display: flex;
+  margin-left:40px;
+
+
+}
+.main1{
+  -ms-flex:1;
+flex:1;
+width: 50%;
+box-sizing: border-box;
+}
+
+#hr{
+width:70px;;
+height: 3px;
+background-color:  #e3b04b;
+margin-left: 190px;
+}
+
+#blck{
+  background:#f0f0f0;
+
+}
+
+
+ .col-sm-6 img{
+   width:600px;
+   height: 250px;
+ }
+
+.card-title{
+    color: #00005c;
+text-align: center;
+
+}
+
+.card-img-top{
+  width:100px;
+  height: 200px;
+  padding-top: 5px;
+}
+.card-text{
+
+  text-align: center;
+}
+
+#notre-equipe{
+  margin-top: 70px;;
+  color: #00005c;
+  text-align: center;
+  font-weight: bold;
+}
+
+#p-equipe{
+  text-align: center;
+  padding-top: 20px;
+}
+#cnt{
+  padding-top:80px;
+
+}
+
+/* animate page a props  */
+.about--part1{
+  opacity:0;
+}
+.about--part1 .animated{
+  opacity:1;
+}
